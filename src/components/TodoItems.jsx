@@ -1,5 +1,5 @@
 import './Css/TodoItems.css';
-import tick from './Assets/check-mark.png';
+import tick from './Assets/check-mark';
 import notTick from './Assets/rec.png';
 import cross from './Assets/remove.png'; 
 
@@ -12,7 +12,7 @@ const TodoItems = ({no, display, text}) => {
                 <img src={notTick} alt="" />
                 <div className="todoitems-text">{text}</div>
             </div>
-            <img src={cross} alt="" />
+            <img className='todoitems-cross-icon' src={cross} alt="" />
         </div>
     )
 }
