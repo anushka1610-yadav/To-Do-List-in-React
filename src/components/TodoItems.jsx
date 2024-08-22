@@ -1,5 +1,5 @@
 import './Css/TodoItems.css';
-import tick from './Assets/check-mark';
+import tick from './Assets/check-mark.png';
 import notTick from './Assets/rec.png';
 import cross from './Assets/remove.png'; 
 
